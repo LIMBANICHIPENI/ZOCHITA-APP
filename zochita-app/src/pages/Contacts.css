@@ -1,0 +1,74 @@
+/* Contact.css */
+
+/* Container for the Contact Us section */
+.contact-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Title */
+.contact-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Intro paragraph */
+.contact-container p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Contact list */
+.contact-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-container li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Links styling */
+.contact-container a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-container a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Add a subtle background to the container */
+.contact-container {
+  background: linear-gradient(135deg, #e8e8e8, #f0f0f0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 15px;
+  }
+  
+  .contact-container h1 {
+    font-size: 2rem;
+  }
+
+  .contact-container p,
+  .contact-container li {
+    font-size: 1rem;
+  }
+}

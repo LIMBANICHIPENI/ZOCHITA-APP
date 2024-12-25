@@ -1,0 +1,50 @@
+/* src/pages/Home.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full height of the viewport */
+  background-image: url('./images/zochita6.jpg'); /* Big cyan color */
+  color: white; /* Text color */
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 3rem; /* Large font size for the logo */
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  margin: 0 15px;
+  color: white; /* White text for links */
+  text-decoration: none; /* Remove underline */
+  font-size: 1.5rem; /* Font size for links */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.get-started {
+  margin-top: 20px;
+}
+
+.get-started-button {
+  background-color: yellow; /* Yellow color for the button */
+  color: black; /* Text color for the button */
+  border:0cap; /* Remove border */
+  padding: 15px 30px; /* Padding for the button */
+  font-size: 1.5rem; /* Font size for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.get-started-button:hover {
+  background-color: #fcd34d; /* Slightly darker yellow on hover */
+}

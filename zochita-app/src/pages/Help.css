@@ -1,0 +1,72 @@
+/* Help.css */
+
+/* Container for the Help section */
+.help-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Title */
+.help-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Intro paragraph */
+.help-container p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Help tips list */
+.help-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.help-container li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Last paragraph */
+.help-container p:last-of-type {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Optional: Add a subtle background to the container */
+.help-container {
+  background: linear-gradient(135deg, #e0f7fa, #f0f8ff);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .help-container {
+    padding: 15px;
+  }
+  
+  .help-container h1 {
+    font-size: 2rem;
+  }
+
+  .help-container p,
+  .help-container li {
+    font-size: 1rem;
+  }
+}
