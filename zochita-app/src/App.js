@@ -5,7 +5,7 @@ import SignUp from './pages/SignUp';
 import Login from './pages/Login';
 import TodoApp from './pages/TodoApp';
 import Help from './pages/Help'; // Import Help page
-import Contacts from './pages/Contacts'; // Import Contact page
+import Contacts from './pages/Contact'; // Import Contact page
 import About from './pages/About'; // Import About Us page
 
 const App = () => {
